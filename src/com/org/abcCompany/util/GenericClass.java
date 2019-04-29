@@ -4,6 +4,8 @@ import org.openqa.selenium.By;
 import com.org.abcCompany.config.Config;
 
 public class GenericClass {
+	
+	
 
 	public static By getbjectLocator(String locatorName) {
 		final String locatorProperty = Config.getProperty(locatorName);
